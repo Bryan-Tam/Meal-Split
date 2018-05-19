@@ -22,10 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override   //like interrupt
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        /*
+       /*
           Remove Title Bar (kinda doesnt work)
         */
         //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -33,8 +30,12 @@ public class MainActivity extends AppCompatActivity {
         /*
           Remove notification bar
         */
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        this.setContentView(R.layout.activity_main);
+        //this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //this.setContentView(R.layout.activity_main);
+
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
 
         /*
