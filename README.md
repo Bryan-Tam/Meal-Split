@@ -6,4 +6,4 @@ A learning app for Android Studio
 ## Planned features
 - working interface (Complete!)
 - stored meal history
-- social API, push to venmo?
+- social API/push to venmo?
