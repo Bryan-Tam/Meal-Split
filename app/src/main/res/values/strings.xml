@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meal Splitter</string>
+    <string name="total_price_hint">Total Price</string>
+    <string name="people_hint">People</string>
+    <string name="cpp">per person</string>
+    <string name="split">Split it!</string>
+</resources>
